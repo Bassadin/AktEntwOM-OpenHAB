@@ -17,6 +17,12 @@
 
 <https://www.openhab.org/docs/configuration/restdocs.html>
 
+## Oberfläche
+
+### Speicherort für Bilder
+
+conf/html
+
 ## Persistenz
 
 - InfluxDB OpenHAB Persistence Addon
