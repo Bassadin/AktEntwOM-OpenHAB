@@ -6,6 +6,12 @@
 ## Konfiguration
 - Gewünschtes Binding als Add-On installieren (z.B. IKEA Tradfri Binding)
 
+## Dokumentation
+https://www.openhab.org/docs/
+
+## API
+https://www.openhab.org/docs/configuration/restdocs.html
+
 ## Persistenz
 - InfluxDB OpenHAB Persistence Addon
 
