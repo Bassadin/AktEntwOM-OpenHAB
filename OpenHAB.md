@@ -26,3 +26,7 @@ conf/html
 ## Persistenz
 
 - InfluxDB OpenHAB Persistence Addon
+
+## Negatives
+
+- Mehrfachselektion unterstützt kein Shift+Klick, um schneller Items zu selektieren
