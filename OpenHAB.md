@@ -8,6 +8,9 @@
 ## Konfiguration
 
 - Gewünschtes Binding als Add-On installieren (z.B. IKEA Tradfri Binding)
+- Things importieren
+- Things als Equipment/Points im Model verlinken
+- Oberfläche zur Steuerung konfigurieren
 
 ## Dokumentation
 
