@@ -41,3 +41,5 @@
 ## Negatives
 
 - Mehrfachselektion unterstützt kein Shift+Klick, um schneller Items zu selektieren
+- Google Home Integration geht bisher nur mit OpenHAB 2 :(
+  - https://www.myopenhab.org/ (ganz unten)
