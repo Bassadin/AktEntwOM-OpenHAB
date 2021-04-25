@@ -1,2 +1,3 @@
 # Todo
-- Google Home/Assistant integrieren
+
+- RGB-LED-Leiste ansteuern
