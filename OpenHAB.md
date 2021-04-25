@@ -12,6 +12,14 @@
 - Things als Equipment/Points im Model verlinken
 - Oberfläche zur Steuerung konfigurieren
 
+## Bindings
+
+- IKEA Tradfri Binding
+  - IKEA Tradfri/Home Smart-Ansteuerung
+- Openweathermap Binding
+  - Wetterdaten von OWM (Openweathermap) - kostenlos
+- 
+
 ## Dokumentation
 
 <https://www.openhab.org/docs/>
@@ -24,7 +32,7 @@
 
 ### Speicherort für Bilder
 
-conf/html
+/conf/html
 
 ## Persistenz
 
