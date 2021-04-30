@@ -18,7 +18,6 @@
   - IKEA Tradfri/Home Smart-Ansteuerung
 - Openweathermap Binding
   - Wetterdaten von OWM (Openweathermap) - kostenlos
-- 
 
 ## Dokumentation
 
@@ -42,4 +41,4 @@
 
 - Mehrfachselektion unterstützt kein Shift+Klick, um schneller Items zu selektieren
 - Google Home Integration geht bisher nur mit OpenHAB 2 :(
-  - https://www.myopenhab.org/ (ganz unten)
+  - <https://www.myopenhab.org/> (ganz unten)
