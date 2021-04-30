@@ -37,3 +37,7 @@ Im Falle, dass der Client die Verbindung verliert, benachrichtigt der Broker dan
 ## Debugging
 
 z.B. MQTT Explorer...
+
+## Übliche Software
+
+[Eclipse Mosquitto](https://mosquitto.org/)
