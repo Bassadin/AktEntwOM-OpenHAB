@@ -1,5 +1,5 @@
-var mqtt = require('mqtt')
-var client = mqtt.connect('mqtt://test.mosquitto.org')
+let mqtt = require('mqtt')
+let client = mqtt.connect('mqtt://public:public@public.cloud.shiftr.io', { clientId: "bastian_hfu" });
 
 client.on('connect', () => {
     client.subscribe('hfu/dm/test', { qos: 2 });
@@ -11,5 +11,5 @@ client.on('message', (topic, message, packet) => {
     console.log("Topic:", topic);
     console.log("Message:", message.toString()); //.toString weil Buffer
     console.log("Packet:", packet);
-    client.end()
+    // client.end()
 })
