@@ -4,7 +4,7 @@ let client = mqtt.connect('mqtt://hfu-dm:1234@hfu-dm.cloud.shiftr.io', { clientI
 client.on('connect', () => {
     client.subscribe(
         'hfu/dm/test',
-        { qos: 2 }
+        { qos: 1 }
     );
     client.publish(
         'hfu/dm/test',
