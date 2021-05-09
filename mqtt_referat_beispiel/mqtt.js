@@ -2,13 +2,15 @@ let mqtt = require('mqtt');
 let client = mqtt.connect('mqtt://hfu-dm:1234@hfu-dm.cloud.shiftr.io', { clientId: "bastian_hfu" });
 
 client.on('connect', () => {
-    client.subscribe('hfu/dm/test', { qos: 1 });
-    client.publish('hfu/dm/test', 'Hallo mqtt', { qos: 1, retain: true });
+    console.log("Connected!");
+    client.subscribe('hfu/dm/test', { qos: 0 });
+
+    console.log("Publishing message...");
+    client.publish('hfu/dm/test', "Hallo MQTT!", { qos: 0, retain: false });
+
 });
 
 //Handle subscriptions
 client.on('message', (topic, message, packet) => {
-    console.log("Topic:", topic);
-    console.log("Message:", message.toString()); //.toString weil Buffer
-    // client.end()
+    console.log(`Received message "${message.toString()}" on subscribed topic "${topic}".`); //.toString weil Buffer
 });
